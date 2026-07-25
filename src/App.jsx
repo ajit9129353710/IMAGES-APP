@@ -27,7 +27,7 @@ function App() {
   type="text"
   placeholder="Search images..."
   value={query}
-  onChange={(e) => setQuery(e.target.value)}
+  onChange={(e) => setQuery(e.target.value)}     
   onKeyDown={(e) => {
     if (e.key === "Enter") {
       searchImages();
