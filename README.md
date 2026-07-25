@@ -1,16 +1,91 @@
-# React + Vite
+# 📸 Image Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Image Search Application** built using **React.js** and **Unsplash API**. Users can search and view high-quality images instantly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search images using keywords  
+- 🌐 Fetch images from Unsplash API  
+- 🖼️ Display images dynamically  
+- ⌨️ Search using Enter key  
+- ⚡ Fast and responsive UI  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Vite)  
+- JavaScript (ES6)  
+- CSS  
+- Unsplash API  
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── App.jsx
+ ├── App.css
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+```
+git clone https://github.com/your-username/image-search-app.git
+```
+
+2. Navigate to project folder:
+```
+cd image-search-app
+```
+
+3. Install dependencies:
+```
+npm install
+```
+
+4. Run the project:
+```
+npm run dev
+```
+
+---
+
+## 🔑 API Setup
+
+1. Go to Unsplash Developer website  
+2. Create an app and get your Access Key  
+3. Replace in your code:
+
+```js
+const ACCESS_KEY = "YOUR_ACCESS_KEY";
+```
+
+---
+
+## 📌 Usage
+
+- Enter a keyword (e.g., nature, cars, coding)  
+- Press Enter or click search  
+- Images will be displayed instantly  
+
+---
+
+## 💡 Future Improvements
+
+- Add pagination (Load more button)  
+- Add favorite/save feature  
+- Dark mode  
+- Improve mobile UI  
+
+---
+
